@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Site Maintenance</title>
+        <title>Blue Raven - Site Maintenance</title>
         <meta charset="utf-8" />
         <meta name="robots" content="noindex" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,15 +11,16 @@
                 padding: 20px;
                 font: 20px Helvetica, sans-serif;
                 color: #333;
-                background-color: #ffffff
+                background-color: #ffffff;
             }
             @media (min-width: 768px) {
                 body {
-                    padding-top: 150px;
+                    padding-top: 80px;
                 }
             }
             h1 {
                 font-size: 50px;
+                margin-top: 20px;
             }
             article {
                 display: block;
@@ -35,10 +36,14 @@
                 color: #333;
                 text-decoration: none;
             }
+            img.logo {
+                max-width: 200px;
+                height: auto;
+            }
             @media (prefers-color-scheme: dark) {
                 body {
                     color: #efe8e8;
-                    background-color: #2e2929
+                    background-color: #2e2929;
                 }
                 a {
                     color: #dc8100;
@@ -50,6 +55,11 @@
         </style>
     </head>
     <body>
+        <!-- Logo at the top -->
+        <div>
+            <img src="logo.png" alt="Blue Raven Logo" class="logo" />
+        </div>
+
         <article>
             <h1>We&rsquo;ll be back soon!</h1>
             <div>
@@ -59,7 +69,7 @@
                     <a href="mailto:#">contact us</a>, otherwise we&rsquo;ll be
                     back online shortly!
                 </p>
-                <p>&mdash; The Team</p>
+                <p>&mdash; The Blue Raven Team</p>
             </div>
         </article>
     </body>
